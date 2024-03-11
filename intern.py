@@ -96,7 +96,6 @@ class Ui_Form(object):
         import pandas as ps
         path="C:\\Users\\Shaea\\OneDrive\\Desktop\\projects\\Logistic\\Predcit fracture or not\\bmd.csv"
         data = ps.read_csv(path)
-        data.columns=['age','weight_kg','height_cm','waiting_time','bmd','medication','sex','fracture']
         print(data)
         print(data.info())
 
